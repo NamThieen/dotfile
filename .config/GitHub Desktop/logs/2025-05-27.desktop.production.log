@@ -1,0 +1,7 @@
+2025-05-27T09:34:55.797Z - info: [ui] [AppStore] loading 1 repositories from store
+2025-05-27T09:34:55.810Z - info: [ui] [AppStore] found account: NamThieen (NamThieen)
+2025-05-27T09:34:56.040Z - info: [ui] launching: 3.4.12-linux1 (Linux 6.14.6-300.fc42.x86_64)
+2025-05-27T09:34:56.045Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2025-05-27T09:34:57.028Z - info: [ui] Stats reported.
+2025-05-27T09:34:57.029Z - info: [ui] Subscribed 'NamThieen' to Alive channel
+2025-05-27T09:36:06.605Z - info: [ui] [AppStore] adding repository at /home/nam/dotfile/dotfile to store

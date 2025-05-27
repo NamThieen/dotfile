@@ -1,0 +1,13 @@
+2025-05-19T02:56:17.083Z - info: [ui] [AppStore] loading 1 repositories from store
+2025-05-19T02:56:17.162Z - info: [ui] [AppStore] found account: NamThieen (NamThieen)
+2025-05-19T02:56:18.115Z - info: [ui] [BranchPruner] Last prune took place 13 hours ago - skipping
+2025-05-19T02:56:25.706Z - info: [ui] launching: 3.4.12-linux1 (Linux 6.14.6-300.fc42.x86_64)
+2025-05-19T02:56:25.752Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2025-05-19T02:56:26.214Z - info: [ui] Subscribed 'NamThieen' to Alive channel
+2025-05-19T02:56:26.948Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.475s)
+2025-05-19T02:58:32.144Z - info: [ui] [Timing] Action 'create commit' for 'NamThieen/testn' took 0.254s
+2025-05-19T02:58:36.108Z - info: [ui] Executing pull: git -c rebase.backend=merge pull --ff --recurse-submodules --progress origin (took 1.130s)
+2025-05-19T02:58:41.793Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-19T02:58:42.860Z - info: [ui] Executing push: git push origin master:master --progress (took 1.473s)
+2025-05-19T02:58:43.878Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.016s)
+2025-05-19T03:03:38.719Z - info: [main] opening in browser: https://github.com/NamThieen/testn/tree/master

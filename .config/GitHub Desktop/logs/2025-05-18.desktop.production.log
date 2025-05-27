@@ -1,0 +1,44 @@
+2025-05-18T14:24:14.615Z - info: [ui] [AppStore] loading 0 repositories from store
+2025-05-18T14:24:14.714Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2025-05-18T14:24:14.823Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2025-05-18T14:24:14.833Z - info: [ui] launching: 3.4.12-linux1 (Linux 6.14.6-300.fc42.x86_64)
+2025-05-18T14:24:14.835Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2025-05-18T14:24:14.869Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2025-05-18T14:24:15.043Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2025-05-18T14:24:15.057Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2025-05-18T14:24:15.482Z - info: [ui] Opt in reported.
+2025-05-18T14:24:18.275Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2025-05-18T14:24:18.276Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-05-18T14:24:18.281Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=bad64f71-393c-4639-ba12-d55b3ed781c7
+2025-05-18T14:24:18.283Z - info: [ui] [Welcome] current sign in state not found. ignoring...
+2025-05-18T14:24:22.394Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2025-05-18T14:24:36.137Z - info: [main] Received possible protocol arguments: 3
+2025-05-18T14:24:36.138Z - info: [main] Processing protocol url
+2025-05-18T14:24:36.705Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2025-05-18T14:24:38.118Z - info: [ui] [SignInStore] account resolved
+2025-05-18T14:24:38.121Z - info: [ui] [AppStore] adding account NamThieen (NamThieen) to store
+2025-05-18T14:24:38.703Z - info: [ui] [Welcome] advancing to step: ConfigureGit
+2025-05-18T14:24:39.710Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2025-05-18T14:24:39.831Z - info: [ui] Subscribed 'NamThieen' to Alive channel
+2025-05-18T14:24:53.350Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2025-05-18T14:24:57.620Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2025-05-18T14:25:32.005Z - info: [ui] [AppStore] adding repository at /home/nam/yaml_test_creator to store
+2025-05-18T14:25:34.599Z - info: [ui] [BranchPruner] No branches to prune.
+2025-05-18T14:26:21.449Z - info: [ui] [Timing] Action 'create commit' for 'NamThieen/testn' took 0.154s
+2025-05-18T14:26:30.023Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.0s of which 0.0s paused, total 0.0s
+2025-05-18T14:26:30.228Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-18T14:26:31.683Z - info: [ui] Executing push: git push origin master:master --progress (took 2.189s)
+2025-05-18T14:26:33.685Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.229s)
+2025-05-18T14:26:37.200Z - info: [main] opening in browser: https://github.com/NamThieen/testn
+2025-05-18T14:56:09.920Z - info: [ui] [AppStore] loading 1 repositories from store
+2025-05-18T14:56:09.935Z - info: [ui] [AppStore] found account: NamThieen (NamThieen)
+2025-05-18T14:56:10.238Z - info: [ui] [BranchPruner] Last prune took place 31 minutes ago - skipping
+2025-05-18T14:56:12.534Z - info: [ui] launching: 3.4.12-linux1 (Linux 6.14.6-300.fc42.x86_64)
+2025-05-18T14:56:12.537Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2025-05-18T14:56:13.874Z - info: [ui] Subscribed 'NamThieen' to Alive channel
+2025-05-18T14:56:14.427Z - info: [ui] Stats reported.
+2025-05-18T14:56:38.443Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.081s)
+2025-05-18T14:56:38.945Z - info: [ui] [Timing] Action 'create commit' for 'NamThieen/testn' took 0.175s
+2025-05-18T14:56:39.773Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.326s)
+2025-05-18T14:56:42.830Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-18T14:56:43.863Z - info: [ui] Executing push: git push origin master:master --progress (took 2.741s)
