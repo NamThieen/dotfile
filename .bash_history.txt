@@ -1,7 +1,7 @@
 sudo dnf install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
 
-dnf config-manager addrepo --from-repofile=https://download.opensuse.org/repositories/home:lamlng/Fedora_42/home:lamlng.repo
-sudo dnf install ibus-bamboo pip gnome-builder fish libappindicator-gtk3 
+dnf config-manager addrepo --from-repofile=https://download.opensuse.org/repositories/home:lamlng/Fedora_42/home:lamlng.repo |ibus-bamboo
+sudo dnf install  pip gnome-builder fish libappindicator-gtk3
 
 sudo dnf config-manager addrepo --from-repofile=https://download.opensuse.org/repositories/home:lamlng/Fedora_42/home:lamlng.repo
 flatpak install app.zen_browser.zen
