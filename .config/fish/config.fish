@@ -1,4 +1,9 @@
 if status is-interactive
-    # Commands to run in interactive sessions can go here
+    # Starship custom prompt
+    starship init fish | source
+
+    # For jumping between prompts in foot terminal
+    function mark_prompt_start --on-event fish_prompt
+        echo -en "\e]133;A\e\\"
+    end
 end
-set -gx PATH $PATH ~/.local/bin/
