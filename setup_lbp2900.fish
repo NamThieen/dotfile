@@ -120,8 +120,7 @@ end
 echo "\n--- Step 7: Creating ccpd.service systemd file ---"
 set -l SERVICE_FILE "/etc/systemd/system/ccpd.service"
 
-sudo tee "$SERVICE_FILE" > /dev/null <<EOF
-[Unit]
+echo '[Unit]
 Description=CCPD Printing Daemon
 Requires=cups.service
 After=cups.service
@@ -132,8 +131,7 @@ ExecStart=/usr/sbin/ccpd
 TimeoutSec=30
 
 [Install]
-WantedBy=default.target
-EOF
+WantedBy=default.target' | sudo tee "$SERVICE_FILE" > /dev/null
 
 if [ $status -ne 0 ]
     echo "Error creating ccpd.service file. Exiting."
