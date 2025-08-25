@@ -1,4 +1,0 @@
-date=2025-08-12T14:22:22+07:00
-user=nam
-ext_dir=/home/nam/.local/share/gnome-shell/extensions
-dconf_path=/org/gnome/shell/extensions
